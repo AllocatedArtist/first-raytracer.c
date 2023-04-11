@@ -354,24 +354,24 @@ int main(void) {
     
     sphere_t spheres[6];
 
-    spheres[0] = sphere_new(vector3f_new(-4.0, 0.0, -20.0), 3.0, vector3f_new(0.70, 0.32, 0.36), vector3f_empty(), 1.0, 0.0);
-    spheres[1] = sphere_new(vector3f_new(5.0, 3.0, -60.0), 6.0, vector3f_new(0.50, 0.32, 1.00), vector3f_empty(), 1.0, 0.0);
-    spheres[2] = sphere_new(vector3f_new(0, -1030.0, -100.0), 1000.0, vector3f_new(0.3, 0.3, 0.3), vector3f_empty(), 0.0, 1.0);
-    spheres[3] = sphere_new(vector3f_new(3.0, 0.0, -10.0), 0.8, vector3f_new(1.0, 1.0, 0.0), vector3f_empty(), 0.0, 1.0);
-    spheres[4] = sphere_new(vector3f_new(0.0, 0.0, -70.0), 10.0, vector3f_new(0.43, 1.0, 0.32), vector3f_new(0.0, 0.0, 0.0), 1.0, 1.0);
-    spheres[5] = sphere_new(vector3f_new(0.0, 20.0, -30.0), 3.0, vector3f_new_one_val(0.0), vector3f_new(0.5, 0.5, 0.5), 1.0, 0.0);
+    //spheres[0] = sphere_new(vector3f_new(-4.0, 0.0, -20.0), 3.0, vector3f_new(0.70, 0.32, 0.36), vector3f_empty(), 1.0, 0.0);
+    //spheres[1] = sphere_new(vector3f_new(5.0, 3.0, -60.0), 6.0, vector3f_new(0.50, 0.32, 1.00), vector3f_empty(), 1.0, 0.0);
+    //spheres[2] = sphere_new(vector3f_new(0, -1030.0, -100.0), 1000.0, vector3f_new(0.3, 0.3, 0.3), vector3f_empty(), 0.0, 1.0);
+    //spheres[3] = sphere_new(vector3f_new(3.0, 0.0, -10.0), 0.8, vector3f_new(1.0, 1.0, 0.0), vector3f_empty(), 0.0, 1.0);
+    //spheres[4] = sphere_new(vector3f_new(0.0, 0.0, -70.0), 10.0, vector3f_new(0.43, 1.0, 0.32), vector3f_new(0.0, 0.0, 0.0), 1.0, 1.0);
+    //spheres[5] = sphere_new(vector3f_new(0.0, 20.0, -30.0), 3.0, vector3f_new_one_val(0.0), vector3f_new(0.5, 0.5, 0.5), 1.0, 0.0);
 
     size_t length = sizeof(spheres) / sizeof(spheres[0]);
 
-    //sphere_t example_spheres[6];
-   //example_spheres[0] = sphere_new(vector3f_new(0.0, -10004.0, -20.0), 10000.0, vector3f_new(0.20, 0.20, 0.20), vector3f_empty(), 0.0, 0.0);
-   //example_spheres[1] = sphere_new(vector3f_new(0.0, 0.0, -20.0), 4.0, vector3f_new(1.00, 0.32, 0.36), vector3f_empty(), 1.0, 0.0);
-   //example_spheres[2] = sphere_new(vector3f_new(5.0, -1.0, -15.0), 2.0, vector3f_new(0.9, 0.76, 0.46), vector3f_empty(), 1.0, 0.0);
-   //example_spheres[3] = sphere_new(vector3f_new(5.0, 0.0, -25.0), 3.0, vector3f_new(0.65, 0.77, 0.97), vector3f_empty(), 1.0, 0.0);
-   //example_spheres[4] = sphere_new(vector3f_new(-5.5, 0.0, -15.0), 3.0, vector3f_new(0.9, 0.9, 0.9), vector3f_empty(), 1.0, 0.0);
-   //example_spheres[5] = sphere_new(vector3f_new(0.0, 20.0, -30.0), 3.0, vector3f_new_one_val(0.0), vector3f_new(3.0, 3.0, 3.0), 0.0, 0.0);
+   sphere_t example_spheres[6];
+    example_spheres[0] = sphere_new(vector3f_new(0.0, -10004.0, -20.0), 10000.0, vector3f_new(0.20, 0.20, 0.20), vector3f_empty(), 0.0, 0.0);
+    example_spheres[1] = sphere_new(vector3f_new(0.0, 0.0, -20.0), 4.0, vector3f_new(1.00, 0.32, 0.36), vector3f_empty(), 0.0, 0.0);
+    example_spheres[2] = sphere_new(vector3f_new(5.0, -1.0, -15.0), 2.0, vector3f_new(0.9, 0.76, 0.46), vector3f_empty(), 0.0, 0.0);
+    example_spheres[3] = sphere_new(vector3f_new(5.0, 0.0, -25.0), 3.0, vector3f_new(0.65, 0.77, 0.97), vector3f_empty(), 0.0, 0.0);
+    example_spheres[4] = sphere_new(vector3f_new(-5.5, 0.0, -15.0), 3.0, vector3f_new(0.9, 0.9, 0.9), vector3f_empty(), 0.0, 0.0);
+    example_spheres[5] = sphere_new(vector3f_new(0.0, 20.0, -30.0), 3.0, vector3f_new_one_val(0.0), vector3f_new(3.0, 3.0, 3.0), 0.0, 0.0);
 
-    render(spheres, length);
+    render(example_spheres, length);
     
 
     return 0;
