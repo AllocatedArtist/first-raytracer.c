@@ -5,4 +5,9 @@
 
 >> It doesn't work correctly when trying refraction. But maybe the reflection is a little broken too...
 
-![screenshot](https://github.com/AllocatedArtist/first-raytracer.c/blob/main/final_image.png)
+![screenshot](https://github.com/AllocatedArtist/first-raytracer.c/blob/main/images/final_image.png)
+
+
+>> Without any of that fancy reflection/refraction stuff... It's fine:
+
+![screenshot](https://github.com/AllocatedArtist/first-raytracer.c/blob/main/images/final_image2.png)
