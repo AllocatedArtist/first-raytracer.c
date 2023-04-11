@@ -3,6 +3,6 @@
 
 ## **HOT TRASH! KINDA BROKEN AND I HAVE NO IDEA WHY! BUT IT DID PRODUCE A COOL LOOKING IMAGE**
 
+>> It doesn't work correctly when trying refraction. But maybe the reflection is a little broken too...
 
-
-![screenshot](
+![screenshot](https://github.com/AllocatedArtist/first-raytracer.c/blob/main/final_image.png)
